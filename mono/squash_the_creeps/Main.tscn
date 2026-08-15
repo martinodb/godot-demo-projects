@@ -73,7 +73,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.66792, 0)
 [node name="CameraPivot2" type="Marker3D" parent="Player" unique_id=1813556712]
 
 [node name="Camera3D2" type="Camera3D" parent="Player/CameraPivot2" unique_id=915652838]
-transform = Transform3D(1, 0, 0, 0, 0.8738826, 0.48613706, 0, -0.48613706, 0.8738826, 0, 3.3667908, 3.0220337)
+transform = Transform3D(1, 0, 0, 0, 0.8491946, 0.52808017, 0, -0.52808017, 0.8491946, 0, 5.4347534, 7.116455)
+current = true
 
 [node name="CameraPivot" type="Marker3D" parent="." unique_id=1960526390]
 transform = Transform3D(1, -5.95416e-16, 2.4663e-16, 2.4663e-16, 0.707107, 0.707107, -5.95416e-16, -0.707107, 0.707107, 0, 0, 0)
@@ -81,7 +82,6 @@ transform = Transform3D(1, -5.95416e-16, 2.4663e-16, 2.4663e-16, 0.707107, 0.707
 [node name="Camera3D" type="Camera3D" parent="CameraPivot" unique_id=970752625]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 19)
 projection = 1
-current = true
 size = 24.0
 far = 40.0
 
